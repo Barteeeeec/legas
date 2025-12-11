@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japońskie Samochody - Strona Główna</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">🚗 JDM Cars</h1>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="active">Strona Główna</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="modele.html">Modele</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-content">
+        <h2 class="hero-title">Odkryj Legendy JDM</h2>
+        <p class="hero-subtitle">
+          Poznaj najsłynniejsze japońskie samochody sportowe
+        </p>
+        <a href="galeria.html" class="btn-primary">Zobacz Galerię</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="intro-section">
+        <h2>Witaj w Świecie Japońskich Sportów</h2>
+        <p>
+          Japońskie samochody sportowe to symbole innowacji, wydajności i stylu.
+          Od kultowych modeli z lat 90. po nowoczesne cuda techniki - odkryj
+          fascynujący świat JDM (Japanese Domestic Market).
+        </p>
+      </section>
+
+      <section class="featured-cars">
+        <h2>Najpopularniejsze Modele</h2>
+        <div class="cards-grid">
+          <div class="car-card">
+            <img
+              src="nis.jpeg"
+              alt="Nissan Skyline GT-R R34 srebrny sportowy samochód widok z przodu"
+            />
+            <h3>Nissan Skyline GT-R R34</h3>
+            <p>Legendarna bestia z silnikiem RB26DETT</p>
+            <a href="modele.html" class="btn-secondary">Więcej</a>
+          </div>
+          <div class="car-card">
+            <img
+              src="sup.jpeg"
+              alt="Toyota Supra MK4 pomarańczowy sportowy samochód widok z boku"
+            />
+            <h3>Toyota Supra MK4</h3>
+            <p>Ikona z niezawodnym silnikiem 2JZ-GTE</p>
+            <a href="modele.html" class="btn-secondary">Więcej</a>
+          </div>
+          <div class="car-card">
+            <img
+              src="mazd.jpeg"
+              alt="Mazda RX-7 FD czerwony sportowy samochód z silnikiem rotacyjnym"
+            />
+            <h3>Mazda RX-7 FD</h3>
+            <p>Mistrz silnika rotacyjnego Wankla</p>
+            <a href="modele.html" class="btn-secondary">Więcej</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-section">
+        <h2>Statystyki w Liczbach</h2>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <span class="stat-number" data-target="280">0</span>
+            <p>Maksymalna Moc (KM)</p>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number" data-target="100">0</span>
+            <p>Prędkość 0-100 km/h (s)</p>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number" data-target="350">0</span>
+            <p>Maksymalna Prędkość (km/h)</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Japońskie Samochody. Wszystkie prawa zastrzeżone.</p>
+        <p>Projekt edukacyjny o legendach JDM</p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

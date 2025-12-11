@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria - Japońskie Samochody</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">🚗 JDM Cars</h1>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">Strona Główna</a></li>
+          <li><a href="galeria.html" class="active">Galeria</a></li>
+          <li><a href="modele.html">Modele</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <main class="container">
+      <h1 class="page-title">Galeria Zdjęć</h1>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Wszystkie</button>
+        <button class="filter-btn" data-filter="nissan">Nissan</button>
+        <button class="filter-btn" data-filter="toyota">Toyota</button>
+        <button class="filter-btn" data-filter="mazda">Mazda</button>
+        <button class="filter-btn" data-filter="honda">Honda</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="nissan">
+          <img
+            src="nis.jpeg"
+            alt="Nissan GT-R R35 niebieski podczas wyścigu na torze"
+          />
+          <div class="gallery-overlay">
+            <h3>Nissan GT-R R35</h3>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="toyota">
+          <img src="sup.jpeg" alt="Toyota Supra biała na górskiej drodze" />
+          <div class="gallery-overlay">
+            <h3>Toyota Supra</h3>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="mazda">
+          <img src="mazd.jpeg" alt="Mazda RX-7 żółta podczas driftu z dymem" />
+          <div class="gallery-overlay">
+            <h3>Mazda RX-7</h3>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="honda">
+          <img src="nsx.jpeg" alt="Honda NSX czerwona w mieście w nocy" />
+          <div class="gallery-overlay">
+            <h3>Honda NSX</h3>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="nissan">
+          <img
+            src="silvia.jpeg"
+            data-category="nissan"
+            alt="Nissan Silvia S15 fioletowa o zachodzie słońca"
+          />
+          <div class="gallery-overlay">
+            <h3>Nissan Silvia S15</h3>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="toyota">
+          <img src="corolla.jpeg" alt="Toyota AE86 biało-czarna na touge" />
+          <div class="gallery-overlay">
+            <h3>Toyota AE86</h3>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="mazda">
+          <img src="mazda.jpeg" alt="Mazda MX-5 Miata czerwona na plaży" />
+          <div class="gallery-overlay">
+            <h3>Mazda MX-5 Miata</h3>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="honda">
+          <img src="s.jpeg" alt="Honda S2000 srebrna z widokiem na góry" />
+          <div class="gallery-overlay">
+            <h3>Honda S2000</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Japońskie Samochody. Wszystkie prawa zastrzeżone.</p>
+        <p>Projekt edukacyjny o legendach JDM</p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/gallery.js"></script>
+  </body>
+</html>
